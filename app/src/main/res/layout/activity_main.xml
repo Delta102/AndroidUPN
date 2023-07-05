@@ -6,75 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/txtJugador1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="32dp"
-        android:text="Jugador 1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSeleccionador" />
-
     <Button
-        android:id="@+id/btnSeleccionador"
+        android:id="@+id/btnCreate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="124dp"
-        android:text="Jugador 1"
+        android:layout_marginTop="160dp"
+        android:text="Crear Publicación"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/txtJugador2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:text="Jugador 2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.674"
-        app:layout_constraintStart_toEndOf="@+id/txtJugador1"
-        app:layout_constraintTop_toBottomOf="@+id/btnSeleccionador" />
-
-    <TextView
-        android:id="@+id/txtPtj1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Puntaje: "
-        app:layout_constraintEnd_toStartOf="@+id/txtPtj2"
-        app:layout_constraintHorizontal_bias="0.286"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtJugador1" />
-
-    <TextView
-        android:id="@+id/txtPtj2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="84dp"
-        android:text="Puntaje:"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtJugador2" />
-
-    <TextView
-        android:id="@+id/txtWinner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Ganador"
-        app:layout_constraintBottom_toTopOf="@+id/btnReset"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSeleccionador"
-        app:layout_constraintVertical_bias="0.779" />
-
     <Button
-        android:id="@+id/btnReset"
+        android:id="@+id/btnGetPublications"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="228dp"
-        android:text="Regresar"
+        android:text="Ver Publicaciones"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
